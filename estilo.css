@@ -14,8 +14,8 @@ html {
 /* *********************/
 
 #inicio {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("img/fondo-inicio.jpg");
+  background: linear-gradient(rgba(209, 11, 11, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/seguridad.jpeg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -30,7 +30,7 @@ html {
 }
 
 #inicio .contenido header .contenido-header {
-  max-width: 1100px;
+  max-width: 1300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -38,9 +38,9 @@ html {
   padding: 10px 20px;
 }
 
-#inicio .contenido header .contenido-header h1 {
-  text-align: center;
-  color: #ff5080;
+#inicio .contenido header .contenido-header .contenido-logo {
+  display: flex;
+  cursor: pointer;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -58,23 +58,20 @@ html {
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-  color: #ff5080;
+  color: #ff2323;
 }
 
-#inicio .contenido header .contenido-header .redes a {
+#inicio .contenido header .contenido-header .slogan h1 {
   text-decoration: none;
   color: #fff;
-  display: inline-block;
   margin-left: 10px;
   transition: 0.5s;
-}
-
-#inicio .contenido header .contenido-header .redes a:hover {
-  color: #ff5080;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-  color: #ff5080;
+  color: #ff2323;
 }
 
 #inicio .contenido .presentacion {
@@ -103,7 +100,7 @@ html {
 
 #inicio .contenido .presentacion h2 span {
   font-size: 25px;
-  color: #ff5080;
+  color: #ff2323;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -127,7 +124,7 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-  background-color: #ff5080;
+  background-color: #ff2323;
 }
 
 #icono-nav {
@@ -179,7 +176,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-  color: #ff5080;
+  color: #ff2323;
 }
 
 #sobremi .sobremi h3 {
@@ -209,7 +206,7 @@ html {
 }
 
 #sobremi .sobremi a:hover {
-  background-color: #ff5080;
+  background-color: #ff2323;
   color: #fff;
 }
 /* *********************/
@@ -439,7 +436,7 @@ html {
   position: absolute;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.8);
-  color: #ff5080;
+  color: #ff2323;
   width: 100%;
   padding: 10px;
   opacity: 0;
@@ -513,7 +510,7 @@ html {
 }
 
 #contacto .btn-enviar:hover {
-  background-color: #ff5080;
+  background-color: #ff2323;
   color: #fff;
 }
 /* *********************/
@@ -538,8 +535,8 @@ footer a {
 /* seccion R E S P O N S I V E */
 /* *********************/
 
-@media screen and (max-width: 800px) {
-  .redes {
+@media screen and (max-width: 900px) {
+  .slogan {
     display: none;
   }
   nav {
